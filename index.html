@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>First Website Study</title>
+        <style type="text/css">
+            body{
+                background-color: #F9E2AF;
+                margin: 0;
+            }
+            div#main-container{
+                background-color:#FFF1E6;
+                width: 85vw;
+                margin:auto;
+                padding: 2em 2em 2em 2em;
+                height: auto;
+            }
+            h1 {
+                color: chocolate;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 2.5em;
+                margin-top; 0em;
+            }
+            p {
+                color: darkgoldenrod;
+                font-family: 'times new roman', times, serif;
+                font-size: 1.5em;
+            }
+            a {
+                color: coral;
+                text-decoration: none;
+            }
+            /* my comment */
+            a:hover {
+                color: darkblue;
+            }
+            a:focus{
+                color:brown;
+            }
+            img{
+                width: 100%;
+            }
+            div#intro{
+                background-color: #F7A9A8;
+                width: 85vw;
+                margin:auto;
+                padding: 2em 2em 2em 2em;
+                height:auto;
+            }
+            h2 {
+                color:#84A59D;
+                font-size: 7em;
+                font-family:"Jersey 25", sans-serif;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .side-nav{
+                display: flex;
+                flex-direction: column;
+                width: 35%;
+                gap: 20px;
+                font-size: 3em;
+                flex-shrink: 0;
+            }
+            .side-nav a{
+                color: #D98E73;
+                text-decoration: none;
+                font-family:"Jersey 25", sans-serif;
+            }
+            .gallery {
+                display: grid;
+                grid-template-columns: 250px 250px;
+                gap: 30px;
+                width: 65%;
+            }
+            #intro {
+                display: flex;
+                gap: 60px;
+            }
+            .page-box {
+                background-color: #F7A9A8;
+                width: 95%;
+                margin: 30px auto;
+                padding: 40px;
+                box-sizing: border-box
+            }
+        </style>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main-container">
+            <h1>First Website Study</h1>
+            <!--comment -->
+            <p> Hello hello hello</p>
+            <p><a href="https://www.google.com/?zx=1788466446995" target="_blank">Second</a> one is here</p>
+            <p><img src="image01.heic" /></p>
+        </div>
+        <div class="page-box">
+            <h2>Joey Chen</h2>
+            <div id="intro">
+                <nav class="side-nav">
+                    <a herf="#">HOME</a>
+                    <a herf="#">ILLUSTRATION</a>
+                    <a herf="#">ANIMATION</a>
+                    <a herf="#">ABOUT</a>
+                </nav>
+                <div class="gallery">
+                    <img src="01.jpg">
+                    <img src="03.jpg">
+                    <img src="04.jpg">
+                    <img src="05.jpg">
+                </div>
+            </div>
+         </div>   
+        
+    </body>
+</html>
