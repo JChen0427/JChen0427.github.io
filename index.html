@@ -164,6 +164,17 @@
                 background-color: #8f596b;
                 color: #fbe5eb;
             }
+            .side-nav a:hover {
+                color: #FFE39A;
+                transform: translateX(5px);
+            }
+            .side-nav a::before {
+                content: "★ ";
+                opacity: 0;
+            }
+            .side-nav a:hover::before {
+                opacity: 1;
+            }
         </style>
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
